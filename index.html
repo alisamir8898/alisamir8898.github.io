@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ali Shalaby — Penetration Tester | Web Application & Network Security">
+  <title>Ali Shalaby | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanline"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">ali@security:~$</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#about">about</a>
+      <a href="#experience">training</a>
+      <a href="#skills">skills</a>
+      <a href="#projects">projects</a>
+      <a href="#education">education</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="terminal-line"><span>$</span> whoami</div>
+      <p class="eyebrow">CYBERSECURITY PORTFOLIO</p>
+      <h1>Ali Shalaby</h1>
+      <h2>Penetration Tester <span>|</span> Web Application &amp; Network Security</h2>
+      <p class="hero-text">
+        Cybersecurity graduate focused on offensive web application and network security,
+        with practical experience across reconnaissance, exploitation, post-exploitation,
+        vulnerability assessment, and professional reporting.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="assets/Ali_Samir_CV.pdf" download>Download CV</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/alisamir8898" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/ali-shalaby-99b975296" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://tryhackme.com/p/alisamir14532" target="_blank" rel="noopener">TryHackMe</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="terminal-line"><span>$</span> cat about.txt</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="card">
+        <p>
+          I am a 2026 Cybersecurity graduate from the Faculty of Artificial Intelligence,
+          Menofia University. My focus is offensive security, especially web application
+          and network penetration testing.
+        </p>
+        <p>
+          I have completed the eJPT and eWAPT training paths through eLearnSecurity and
+          continue advanced hands-on study through PortSwigger Web Security Academy and
+          TryHackMe.
+        </p>
+        <div class="focus-grid">
+          <div><strong>01</strong><span>Web Application Security</span></div>
+          <div><strong>02</strong><span>Network Pentesting</span></div>
+          <div><strong>03</strong><span>Vulnerability Assessment</span></div>
+          <div><strong>04</strong><span>Security Automation</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="terminal-line"><span>$</span> tail -f training.log</div>
+      <h2 class="section-title">Training &amp; Practical Experience</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="dot"></div>
+          <div class="card">
+            <span class="tag">ONGOING</span>
+            <h3>PortSwigger Web Security Academy</h3>
+            <p>Self-directed practical web security training.</p>
+            <ul>
+              <li>SQL Injection, XSS, CORS and SSRF</li>
+              <li>Path Traversal and Command Injection</li>
+              <li>JWT and OAuth vulnerabilities</li>
+              <li>Written vulnerability reports and PoC documentation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="dot"></div>
+          <div class="card">
+            <span class="tag">ONGOING</span>
+            <h3>TryHackMe — Penetration Testing Lab Practice</h3>
+            <p>Self-directed hands-on practice across Linux and Windows environments.</p>
+            <ul>
+              <li>11+ machine labs including Billing, Pyrat, Cyborg, Retro and others</li>
+              <li>Reconnaissance and service enumeration</li>
+              <li>Web exploitation including LFI, RCE and upload bypass</li>
+              <li>Linux and Windows privilege escalation</li>
+              <li>Structured findings, impact, PoC and remediation reporting</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="dot"></div>
+          <div class="card">
+            <span class="tag">PERSONAL PROJECT</span>
+            <h3>Security Automation Tooling</h3>
+            <p>Python and Bash tooling for repeatable reconnaissance workflows.</p>
+            <ul>
+              <li>Subdomain enumeration automation</li>
+              <li>Nmap + RustScan port-scanning pipelines</li>
+              <li>Structured JSON result parsing</li>
+              <li>Bash wrappers for recon workflows</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="terminal-line"><span>$</span> ls -la projects/</div>
+      <h2 class="section-title">Projects &amp; Practical Work</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>Billing</h3>
+          <p>TryHackMe penetration-testing lab covering reconnaissance, enumeration, exploitation and privilege escalation.</p>
+          <div class="chips"><span>Web</span><span>Linux</span><span>Pentest</span></div>
+          <a href="https://github.com/alisamir8898/Billing-Machine-Pentest" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Cyborg</h3>
+          <p>Hands-on machine assessment documented as a structured penetration-testing engagement.</p>
+          <div class="chips"><span>Linux</span><span>Enumeration</span><span>Privilege Escalation</span></div>
+          <a href="https://github.com/alisamir8898/Cyborg-Machine-Pentest" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Pyrat</h3>
+          <p>Full pentest engagement with documented findings, CVSS-oriented impact analysis and remediation.</p>
+          <div class="chips"><span>Pentest</span><span>CVSS</span><span>Reporting</span></div>
+          <a href="https://github.com/alisamir8898/Pyrat-Full-Pentest-Engagement" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04</div>
+          <h3>Retro</h3>
+          <p>Practical machine assessment focused on enumeration, exploitation and post-exploitation workflow.</p>
+          <div class="chips"><span>Web</span><span>Windows</span><span>Pentest</span></div>
+          <a href="https://github.com/alisamir8898/Retro-Machine-Pentest" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">05</div>
+          <h3>Access Control Labs</h3>
+          <p>Web security practice focused on access-control vulnerabilities and authorization testing.</p>
+          <div class="chips"><span>Web Security</span><span>IDOR</span><span>Authorization</span></div>
+          <a href="https://github.com/alisamir8898/Access-Control-Labs" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">06</div>
+          <h3>Authentication Vulnerabilities</h3>
+          <p>Practical web-security work covering authentication testing and vulnerability documentation.</p>
+          <div class="chips"><span>Authentication</span><span>Burp Suite</span><span>Web</span></div>
+          <a href="https://github.com/alisamir8898/Authentication-Vulnerabilities" target="_blank" rel="noopener">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="terminal-line"><span>$</span> cat skills.txt</div>
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="card skill-card">
+          <h3>Web App Testing</h3>
+          <p>SQL Injection · XSS · IDOR · CORS · Path Traversal · Command Injection · SSRF · JWT/OAuth</p>
+        </div>
+        <div class="card skill-card">
+          <h3>Network Security</h3>
+          <p>Port scanning · Service enumeration · Vulnerability assessment · Nmap · RustScan · Nessus</p>
+        </div>
+        <div class="card skill-card">
+          <h3>Exploitation</h3>
+          <p>Metasploit Framework · Manual exploitation · Linux &amp; Windows privilege escalation</p>
+        </div>
+        <div class="card skill-card">
+          <h3>Reconnaissance</h3>
+          <p>Sublist3r · Shodan · DNSDumpster · RapidDNS · Wappalyzer · Gobuster</p>
+        </div>
+        <div class="card skill-card">
+          <h3>Reporting</h3>
+          <p>Findings · Impact analysis · PoC · Remediation guidance · Structured pentest reports</p>
+        </div>
+        <div class="card skill-card">
+          <h3>Programming</h3>
+          <p>Python · Bash · PHP · JavaScript / Node.js · MySQL · HTML</p>
+        </div>
+      </div>
+
+      <div class="tools-block">
+        <h3>Tools</h3>
+        <div class="chips large">
+          <span>Burp Suite Professional</span><span>Nmap</span><span>RustScan</span>
+          <span>Nessus</span><span>Metasploit</span><span>Gobuster</span>
+          <span>XSSer</span><span>Sublist3r</span><span>Wappalyzer</span>
+          <span>Shodan</span><span>DNSDumpster</span><span>RapidDNS</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="terminal-line"><span>$</span> cat education.txt</div>
+      <h2 class="section-title">Education &amp; Training</h2>
+      <div class="education-grid">
+        <div class="card">
+          <span class="tag">2026</span>
+          <h3>Bachelor of Science in Cybersecurity</h3>
+          <p>Faculty of Artificial Intelligence, Menofia University</p>
+        </div>
+        <div class="card">
+          <span class="tag">COMPLETED</span>
+          <h3>eWAPT Web Application Penetration Tester</h3>
+          <p>eLearnSecurity — Course Completed</p>
+        </div>
+        <div class="card">
+          <span class="tag">COMPLETED</span>
+          <h3>eJPT Junior Penetration Tester</h3>
+          <p>eLearnSecurity — Course Completed</p>
+        </div>
+        <div class="card">
+          <span class="tag">COMPLETED</span>
+          <h3>CCNA</h3>
+          <p>Cisco Certified Network Associate — Practical &amp; Theoretical</p>
+        </div>
+        <div class="card">
+          <span class="tag">COMPLETED</span>
+          <h3>Linux Admin I</h3>
+          <p>Red Hat Linux Administration pathway</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section container contact-section">
+      <div class="terminal-line"><span>$</span> ./contact --secure</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p>Open to junior penetration testing and security analyst opportunities in Egypt / MENA.</p>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:alisamir14532@gmail.com">alisamir14532@gmail.com</a>
+        <a class="contact-link" href="https://github.com/alisamir8898" target="_blank" rel="noopener">github.com/alisamir8898</a>
+        <a class="contact-link" href="https://linkedin.com/in/ali-shalaby-99b975296" target="_blank" rel="noopener">linkedin.com/in/ali-shalaby-99b975296</a>
+        <a class="contact-link" href="https://tryhackme.com/p/alisamir14532" target="_blank" rel="noopener">tryhackme.com/p/alisamir14532</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <span>ali@security:~$ exit</span>
+    <span>© 2026 Ali Shalaby</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
